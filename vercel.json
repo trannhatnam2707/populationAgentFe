@@ -1,0 +1,13 @@
+{
+    "buildCommand": "cd agent && npm install && npm run build",
+    "outputDirectory": "agent/build",
+    "installCommand": "cd agent && npm install",
+    "devCommand": "cd agent && npm start",
+    "functions": {},
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  }
