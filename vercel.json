@@ -1,8 +1,6 @@
 {
-    "buildCommand": "cd AGENT && npm install && npm run build",
-    "outputDirectory": "AGENT/build",
-    "installCommand": "cd AGENT && npm install",
-    "devCommand": "cd AGENT && npm start",
+    "buildCommand": "npm run build",
+    "outputDirectory": "build",
     "rewrites": [
       {
         "source": "/(.*)",
@@ -10,3 +8,4 @@
       }
     ]
   }
+  
